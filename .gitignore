@@ -1,0 +1,74 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Experiment outputs and checkpoints
+results*/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pid
+*.log
+
+# Local OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local temporary files
+.codex_tmp*
+backup_codex_*/
+
+# Manuscript and packaging materials kept locally but not submitted as code
+main*.tex
+references*.bib
+outputs/
+paper_figures/
+editable_figures_for_ppt/
+data_cache/
+build*/
+LTAM_DQN_teacher_package_*/
+LTAM_DQN_teacher_revision_*/
+*.zip
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.spl
+*.synctex.gz
+
+# Local manuscript helper scripts and notes
+chinese_sections.txt
+redraw_publication_figures*.py
+batch_translate.py
+complete_translation.py
+extract_chinese.py
+full_translation.py
+translate_paper_sections.py
+translate_sections.py
+generate_optimized_paper.sh
+optimize_paper.py
+*.pptx
+COMPREHENSIVE_ANALYSIS_AND_RECOMMENDATIONS.md
+CURRENT_STATUS_AND_NEXT_STEPS.md
+FINAL_STATUS_REPORT.md
+NATURE_POLISHING_REVIEW_REQUEST.md
+OPTIMIZATION_PLAN.md
+OPTIMIZATION_SUMMARY.md
+PAPER_ISSUES_AND_FIXES.md
+PAPER_OPTIMIZATION_PLAN.md
+PAPER_REVIEW_REQUEST.md
+PUBLICATION_READY_REVIEW_REPORT.md
+TRANSLATION_STATUS_FINAL.md

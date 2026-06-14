@@ -1,0 +1,29 @@
+env:
+  map_size: 15
+  local_window: 5
+  num_static_obstacles: 0
+  num_dynamic_obstacles: 5
+  dynamic_motion_mode: mixed
+  obstacle_density: 0.0
+  max_steps: 120
+  start_goal_mode: random
+train:
+  gamma: 0.99
+  lr: 0.001
+  batch_size: 64
+  buffer_size: 50000
+  min_buffer_size: 1000
+  target_update_freq: 200
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay_steps: 30000
+  train_episodes: 3000
+methods:
+  formal:
+    - DQN
+    - DQN-T
+    - DQN-AM-noTarget
+    - DQN-AM
+    - LTAM-DQN
+  experimental:
+    - LTAM-DQN-Adj

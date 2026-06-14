@@ -1,0 +1,5 @@
+name: E0-main
+map_size: 15
+num_dynamic_obstacles: 5
+dynamic_motion_mode: mixed
+max_steps: 120

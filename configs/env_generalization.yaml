@@ -1,0 +1,11 @@
+scenarios:
+  - name: E1-large
+    map_size: 20
+    dynamic_motion_mode: mixed
+  - name: E2-dense
+    map_size: 15
+    dynamic_motion_mode: mixed
+    obstacle_density: 0.15
+  - name: E3-random
+    map_size: 15
+    dynamic_motion_mode: random_walk

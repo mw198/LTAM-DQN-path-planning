@@ -1,0 +1,21 @@
+methods:
+  DQN:
+    use_temporal_difference: false
+    use_behavior_mask: false
+    use_target_mask: false
+  DQN-T:
+    use_temporal_difference: true
+    use_behavior_mask: false
+    use_target_mask: false
+  DQN-AM-noTarget:
+    use_temporal_difference: false
+    use_behavior_mask: true
+    use_target_mask: false
+  DQN-AM:
+    use_temporal_difference: false
+    use_behavior_mask: true
+    use_target_mask: true
+  LTAM-DQN:
+    use_temporal_difference: true
+    use_behavior_mask: true
+    use_target_mask: true
